@@ -1,0 +1,9 @@
+name: 'dockered-cdk-action'
+author: 'Ben Riazy <ben@joinkoia.com>'
+description: 'Dockerized GitHub Action for AWS CDK'
+runs:
+  using: 'docker'
+  image: 'Dockerfile'
+branding:
+  icon: 'box'
+  color: 'yellow'
