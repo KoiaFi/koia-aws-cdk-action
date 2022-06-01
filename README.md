@@ -23,7 +23,7 @@ jobs:
       uses: actions/checkout@v2
 
     - name: CDK Synth
-      uses: scottbrenner/aws-cdk-action@master
+      uses: koiafi/koia-aws-cdk-action@master
       with:
         args: synth
       env:
